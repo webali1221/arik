@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="my-[50px] fixed left-170 mx-auto">
+    <header className="my-[50px] fixed z-50 left-1/2 transform -translate-x-1/2 mx-auto">
       <div className="backdrop-blur-xl bg-black/30 border border-white/15 rounded-xl px-5 py-3 w-[570px]">
         <ul className="flex gap-7 text-white items-center justify-between">
           <li><Link href="/"><img src="./logo.svg" alt="logo" /></Link></li>

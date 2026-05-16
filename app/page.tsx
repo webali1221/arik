@@ -170,7 +170,7 @@ const page = () => {
             results I helped them achieve.
           </p>
         </div>
-        <div className="flex flex-wrap w-[1200px] gap-[30px] ml-[440px] mb-[100px]">
+        <div className="flex flex-wrap  ml-[250px] gap-[30px] mb-[100px]">
           <div className='transition-transform duration-300 ease-in-out hover:-translate-x-3'><Box2 /></div>
           <div className='transition-transform duration-300 ease-in-out hover:translate-x-3'><Box2 /></div>
           <div className='transition-transform duration-300 ease-in-out hover:-translate-x-3'><Box2 /></div>
